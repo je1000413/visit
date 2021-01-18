@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: visit
-          image: username/visit:latest
+          image: skcc03.azurecr.io/visit:latest
           ports:
             - containerPort: 8080
           readinessProbe:
